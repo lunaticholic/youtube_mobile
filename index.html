@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/1f53cf09c6.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="main.js" defer></script>
+    <title>Youtube Mobile</title>
+  </head>
+  <body>
+    <!-- header: 최상단 메뉴 부분-->
+    <header>
+      <div class="logo">
+        <i class="fas fa-play-circle"></i>
+        <span class="title">Player</span>
+      </div>
+      <div class="icons">
+        <i class="fas fa-search"></i>
+        <i class="fas fa-ellipsis-v"></i>
+      </div>
+    </header>
+
+    <!-- Video Player 부문-->
+    <section class="player">
+      <video
+        controls
+        src="video/One Summer's Day [Spirited Away] - Piano Tutorial.mp4"
+      ></video>
+    </section>
+
+    <div class="infoAndUpNext">
+      <!-- Video Infomation 부문-->
+      <section class="info">
+        <!-- Video Tags, Subject-->
+        <div class="metadata">
+          <ul class="hashtags">
+            <li>#센과치히로의행방불명</li>
+            <li>#One Summer's Day</li>
+            <li>#Synthesia</li>
+          </ul>
+          <div class="titleAndButton">
+            <span class="title clamp"
+              >One Summer's Day [Spirited Away] - Piano Tutorial
+            </span>
+            <button class="moreBtn">
+              <i class="fas fa-caret-down"></i>
+            </button>
+          </div>
+          <span class="views">1K Views, 1 Month ago</span>
+        </div>
+        <!-- Video action Button-->
+        <ul class="actions">
+          <li>
+            <button>
+              <i class="active fas fa-thumbs-up"></i>
+              <span>1K</span>
+            </button>
+          </li>
+          <li>
+            <button>
+              <i class="fas fa-thumbs-down"></i>
+              <span>0</span>
+            </button>
+          </li>
+          <li>
+            <button>
+              <i class="fas fa-share"></i>
+              <span>Share</span>
+            </button>
+          </li>
+          <li>
+            <button>
+              <i class="fas fa-plus"></i>
+              <span>Save</span>
+            </button>
+          </li>
+          <li>
+            <button>
+              <i class="fas fa-font-awesome-flag"></i>
+              <span>Report</span>
+            </button>
+          </li>
+        </ul>
+        <!-- 채널 정보 부문-->
+        <div class="channel">
+          <div class="metadata">
+            <img src="images/avatar.jpg" alt="" />
+            <div class="info">
+              <span class="name">BJ CHRIS</span>
+              <span class="subscribers">1K Subscribers</span>
+            </div>
+          </div>
+          <button class="subscribe">subscribe</button>
+        </div>
+      </section>
+
+      <!-- 다음 재생 영상 -->
+      <section class="UpNext">
+        <span class="title">Up Next</span>
+        <ul>
+          <li class="item">
+            <div class="img"><img src="images/1.webp" alt="" /></div>
+            <div class="info">
+              <span class="title"
+                >히로시의 회상 Hiroshi no Kaisou (with Synthesia)</span
+              >
+              <span class="name">Pianissimo- 보고 듣는 피아노연주곡</span>
+              <span class="views">200 Views</span>
+            </div>
+            <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+          </li>
+          <li class="item">
+            <div class="img"><img src="images/2.webp" alt="" /></div>
+            <div class="info">
+              <span class="title"
+                >소녀의 기도 the Maiden's Prayer synthesia</span
+              >
+              <span class="name">Pianissimo- 보고 듣는 피아노연주곡</span>
+              <span class="views">50 Views</span>
+            </div>
+            <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+          </li>
+          <li class="item">
+            <div class="img"><img src="images/3.webp" alt="" /></div>
+            <div class="info">
+              <span class="title"
+                >Dark Fur Elise 엘리제를 위하여 (ver. Dark) synthesia</span
+              >
+              <span class="name">Pianissimo- 보고 듣는 피아노연주곡</span>
+              <span class="views">1K Views</span>
+            </div>
+            <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+          </li>
+        </ul>
+      </section>
+    </div>
+  </body>
+</html>
